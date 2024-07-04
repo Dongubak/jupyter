@@ -398,6 +398,8 @@ model.add(keras.layers.Dense(NB_CLASSES, input_shape=(RESHAPED,), kernel_initial
 
 이에 반해 `다층 퍼셉트론`은 여러 계층이 있는 경우이며, 입력과 출력 계층은 외부에서 볼 수 있지만 중간의 다른 모든 계층은 숨겨져(hidden)있어 볼 수 없다. 앞서 소개한 인간 신경망과의 비교관점에서 설명한 입력층, 은닉층, 출력층 개념이다.
 
+![alt text](image-14.png)
+
 `다층퍼셉트론(MLP)`는 단일 계층을 쌓아 얻을 수 있다.
 
 1. 입력층에서 입력을 받는다.
